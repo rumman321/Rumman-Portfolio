@@ -6,15 +6,17 @@ import {
     SiAwsamplify,
   } from "react-icons/si"; // AWS icon corrected
   import { FaCube } from "react-icons/fa"; // For Headless UI
+import { RiNextjsFill } from "react-icons/ri";
   
   const LearnSkill = () => {
     const learnSkills = [
       { id: 1, name: "Python", icon: <SiPython className="text-blue-600 text-5xl" /> },
-      { id: 2, name: "Django", icon: <SiDjango className="text-green-600 text-5xl" /> },
+      { id: 1, name: "Next.js", icon: <RiNextjsFill className="text-blue-600 text-5xl" /> },
+      // { id: 2, name: "Django", icon: <SiDjango className="text-green-600 text-5xl" /> },
       { id: 3, name: "TypeScript", icon: <SiTypescript className="text-blue-400 text-5xl" /> },
-      { id: 4, name: "Mongoose", icon: <SiMongodb className="text-green-600 text-5xl" /> },
+      // { id: 4, name: "Mongoose", icon: <SiMongodb className="text-green-600 text-5xl" /> },
       { id: 5, name: "Headless UI", icon: <FaCube className="text-purple-500 text-5xl" /> },
-      { id: 6, name: "AWS", icon: <SiAwsamplify className="text-yellow-500 text-5xl" /> },
+      // { id: 6, name: "AWS", icon: <SiAwsamplify className="text-yellow-500 text-5xl" /> },
     ];
   
     return (

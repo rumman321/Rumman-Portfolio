@@ -1,0 +1,33 @@
+[
+    {
+      "project_name": "E-Commerce Platform",
+      "project_img": "/project1.jpg",
+      "project_link": "https://example.com",
+      "github_clientSide": "https://github.com/client",
+      "github_serverSide": "https://github.com/server",
+      "technology_used": ["React", "Node.js", "MongoDB", "Redux"],
+      "project_details": "A full-stack e-commerce platform with user authentication and payment processing.",
+      "challenges": "Implementing real-time inventory updates and handling payment gateway integration.",
+      "Potential_improvements": ["Add recommendation engine", "Improve mobile experience"]
+    },
+    {
+      "project_name": "Task Management App",
+      "project_img": "/project2.jpg",
+      "project_link": "https://taskapp.com",
+      "github_clientSide": "https://github.com/task-client",
+      "technology_used": ["React", "Firebase", "Tailwind CSS"],
+      "project_details": "Real-time collaborative task management application with drag-and-drop functionality.",
+      "challenges": "Synchronizing real-time updates across multiple users",
+      "Potential_improvements": ["Add calendar view", "Implement team roles"]
+    },
+    {
+      "project_name": "Portfolio Website",
+      "project_img": "/project3.jpg",
+      "project_link": "https://myportfolio.com",
+      "github_clientSide": "https://github.com/portfolio",
+      "technology_used": ["React", "Vite", "DaisyUI"],
+      "project_details": "Modern responsive portfolio website with project showcase.",
+      "challenges": "Implementing smooth animations without performance issues",
+      "Potential_improvements": ["Add blog section", "Implement dark mode"]
+    }
+  ]
