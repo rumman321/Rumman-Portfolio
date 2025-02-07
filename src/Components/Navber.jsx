@@ -1,6 +1,7 @@
 
 import { Link, NavLink } from "react-router-dom";
 import { CiMenuFries } from "react-icons/ci";
+import { FaFileDownload } from "react-icons/fa";
 
 
 const Navber = () => {
@@ -53,14 +54,15 @@ const Navber = () => {
 
         {/* Resume Button */}
         <div className="max-sm:hidden space-x-3">
-          <a
-            download={true}
-            className="btn bg-orange-500"
-            target="_blank"
-            href="https://drive.google.com/file/d/1quT29DWxtCWF30NiuxwpAgXjkAUnfsS3/view?usp=sharing"
-          >
-            Resume
-          </a>
+        <a
+                download={true}
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://drive.google.com/file/d/1quT29DWxtCWF30NiuxwpAgXjkAUnfsS3/view?usp=sharing"
+                className='btn btn-primary gap-2'
+              >
+                  <FaFileDownload /> Download Resume
+              </a>
         </div>
 
         {/* Mobile Menu Toggle */}

@@ -13,7 +13,7 @@ import { RiNextjsFill } from "react-icons/ri";
       { id: 1, name: "Python", icon: <SiPython className="text-blue-600 text-5xl" /> },
       { id: 1, name: "Next.js", icon: <RiNextjsFill className="text-blue-600 text-5xl" /> },
       // { id: 2, name: "Django", icon: <SiDjango className="text-green-600 text-5xl" /> },
-      { id: 3, name: "TypeScript", icon: <SiTypescript className="text-blue-400 text-5xl" /> },
+      // { id: 3, name: "TypeScript", icon: <SiTypescript className="text-blue-400 text-5xl" /> },
       // { id: 4, name: "Mongoose", icon: <SiMongodb className="text-green-600 text-5xl" /> },
       { id: 5, name: "Headless UI", icon: <FaCube className="text-purple-500 text-5xl" /> },
       // { id: 6, name: "AWS", icon: <SiAwsamplify className="text-yellow-500 text-5xl" /> },
@@ -25,7 +25,7 @@ import { RiNextjsFill } from "react-icons/ri";
           <h2 className="text-4xl font-bold text-center mb-8 animate-bounce">
             Currently Learning
           </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 item-center">
             {learnSkills.map((skill) => (
               <div
                 key={skill.id}

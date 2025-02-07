@@ -1,33 +1,33 @@
 [
     {
-      "project_name": "E-Commerce Platform",
-      "project_img": "/project1.jpg",
-      "project_link": "https://example.com",
-      "github_clientSide": "https://github.com/client",
-      "github_serverSide": "https://github.com/server",
-      "technology_used": ["React", "Node.js", "MongoDB", "Redux"],
-      "project_details": "A full-stack e-commerce platform with user authentication and payment processing.",
+      "project_name": "eFood Delivery Platform",
+      "project_img": "https://i.ibb.co.com/PshvRVfC/r1.png",
+      "project_link": "https://bristo-boss-c8712.web.app/",
+      "github_clientSide": "https://github.com/rumman321/bistro-boss-restaurent-client",
+      "github_serverSide": "https://github.com/rumman321/foodSharing-server",
+      "technology_used": ["React","Firebase", "Node.js", "MongoDB","Express","Vite", "DaisyUI"],
+      "project_details": "FooDSee is an online restaurant food delivery platform with user and admin dashboards. Admins manage menus, view order stats/revenue, and handle users. Users browse menus, order, pay, and review.",
       "challenges": "Implementing real-time inventory updates and handling payment gateway integration.",
-      "Potential_improvements": ["Add recommendation engine", "Improve mobile experience"]
+      "Potential_improvements": ["Improve SSLCommerz payment gateway", "Improve mobile experience"]
     },
     {
-      "project_name": "Task Management App",
-      "project_img": "/project2.jpg",
-      "project_link": "https://taskapp.com",
-      "github_clientSide": "https://github.com/task-client",
-      "technology_used": ["React", "Firebase", "Tailwind CSS"],
-      "project_details": "Real-time collaborative task management application with drag-and-drop functionality.",
-      "challenges": "Synchronizing real-time updates across multiple users",
-      "Potential_improvements": ["Add calendar view", "Implement team roles"]
+      "project_name": "Job Portal",
+      "project_img": "https://i.ibb.co.com/hgf0qdj/2.png",
+      "project_link": "https://job-portal-a085e.web.app",
+      "github_clientSide": "https://github.com/rumman321/job-protal",
+      "technology_used": ["React", "Firebase", "Tailwind CSS","Vite", "DaisyUI"],
+      "project_details": "Real-time collaborative Job management application with  functionality.",
+      "challenges": "Synchronizing real-time updates across multiple Jobs",
+      "Potential_improvements": ["Add calendar view", "Implement team roles","Implement Custom mode"]
     },
     {
-      "project_name": "Portfolio Website",
-      "project_img": "/project3.jpg",
-      "project_link": "https://myportfolio.com",
-      "github_clientSide": "https://github.com/portfolio",
-      "technology_used": ["React", "Vite", "DaisyUI"],
-      "project_details": "Modern responsive portfolio website with project showcase.",
+      "project_name": "Talk",
+      "project_img": "https://i.ibb.co.com/Y4LgzHtV/img.png",
+      "project_link": "https://forumweb-15576.web.app/",
+      "github_clientSide": "https://github.com/rumman321/talk-Client-Side",
+      "technology_used": ["React","Firebase", "Vite", "DaisyUI"],
+      "project_details": "This platform lets users post questions and share knowledge. Others can like, dislike, and comment, but comments are private, visible only to the original poster. It features separate admin and user dashboards.",
       "challenges": "Implementing smooth animations without performance issues",
-      "Potential_improvements": ["Add blog section", "Implement dark mode"]
+      "Potential_improvements": ["Add blog section", "Implement dark mode", "Implement SSLCommerz payment gateway"]
     }
   ]

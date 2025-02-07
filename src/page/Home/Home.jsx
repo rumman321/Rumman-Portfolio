@@ -1,3 +1,4 @@
+import AboutMe from "../../Components/AboutMe";
 import Banner from "../../Components/Banner";
 import Contact from "../../Components/Contact";
 import LearnSkill from "../../Components/LearnSkill";
@@ -9,6 +10,7 @@ const Home = () => {
         <div>
            
            <Banner></Banner>
+           <AboutMe></AboutMe>
            <Skills></Skills>
            <LearnSkill></LearnSkill>
            <Projects></Projects>

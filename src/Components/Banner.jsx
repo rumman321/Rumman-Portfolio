@@ -1,6 +1,6 @@
 import React from 'react';
 import img from "../assets/rumman.jpeg";
-import { FaFacebookF, FaTelegramPlane, FaLinkedinIn, FaEnvelope } from 'react-icons/fa';
+import { FaFacebookF, FaTelegramPlane, FaLinkedinIn, FaEnvelope, FaFileDownload } from 'react-icons/fa';
 
 const Banner = () => {
   return (
@@ -15,19 +15,20 @@ const Banner = () => {
           <div className="text-center lg:text-left">
             <h3 className="text-2xl sm:text-3xl font-bold">Hi, I am</h3>
             <h1 className="text-3xl sm:text-4xl font-bold">Rumman Mahfuz</h1>
-            <p className="py-4 sm:py-6 text-sm sm:text-base">
+            <p className="py-4 sm:py-6 text-[20px] font-bold ">
               Front-end Web Developer
             </p>
-            <button className="btn bg-orange-500 hover:bg-orange-600 text-white font-semibold">
-              <a
+            
+            <a
                 download={true}
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://drive.google.com/file/d/1quT29DWxtCWF30NiuxwpAgXjkAUnfsS3/view?usp=sharing"
+                className='btn btn-primary gap-2'
               >
-                Download Resume
+                  <FaFileDownload /> Download Resume
               </a>
-            </button>
+            
             <div className="flex justify-center lg:justify-start space-x-4 mt-6">
               <a
                 href="https://www.facebook.com/rumman.mahfuz.2024?mibextid=ZbWKwL"
