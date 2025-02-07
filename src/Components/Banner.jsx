@@ -1,6 +1,6 @@
 import React from 'react';
 import img from "../assets/rumman.jpeg";
-import { FaFacebookF, FaTelegramPlane, FaLinkedinIn, FaEnvelope, FaFileDownload } from 'react-icons/fa';
+import { FaFacebookF, FaTelegramPlane, FaLinkedinIn, FaEnvelope, FaFileDownload, FaGithub } from 'react-icons/fa';
 
 const Banner = () => {
   return (
@@ -39,12 +39,12 @@ const Banner = () => {
                 <FaFacebookF />
               </a>
               <a
-                href="https://t.me/Rummancpa"
+                href="https://github.com/rumman321"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-600 text-2xl"
+                className="text-back-400 hover:text-blue-600 text-2xl"
               >
-                <FaTelegramPlane />
+                <FaGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/rumman-mahfuz-99a59426a/"

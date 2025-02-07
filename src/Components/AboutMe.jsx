@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function AboutMe() {
   return (
-    <section id="about" className="min-h-screen flex items-center pt-16 ">
+    <section id="about" className=" flex items-center pt-16 ">
       <div className="container mx-auto px-6 py-10">
         <motion.h2 
           className="text-3xl md:text-4xl font-extrabold mb-6 text-center "
