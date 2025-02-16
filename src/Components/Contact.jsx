@@ -1,16 +1,17 @@
 import React, { useRef } from "react";
 import { FaEnvelope, FaLocationArrow } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 const Contact = () => {
   const form = useRef();
-  console.log(form);
+  // console.log(form);
 
   const emailSubmit = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
+    
+    emailjs.sendForm(
         import.meta.env.VITE_YOUR_SERVICE_ID,
         import.meta.env.VITE_YOUR_TEMPLATE_ID,
         form.current,
@@ -20,10 +21,22 @@ const Contact = () => {
       )
       .then(
         () => {
-          console.log("SUCCESS!");
+          Swal.fire({
+            // position: "top-end",
+            icon: "success",
+            title: "Your Email has been Send",
+            showConfirmButton: false,
+            timer: 1500
+          });
+          form.current.reset()
         },
         (error) => {
           console.log("FAILED...", error.text);
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: `${error.text}`,
+          });
         }
       );
   };
@@ -41,6 +54,7 @@ const Contact = () => {
               name="from_name"
               placeholder="Your Name"
               className="input input-bordered w-full mb-4"
+              required
             />
 
             <label className="block text-sm font-medium mb-2">Email</label>
@@ -48,6 +62,7 @@ const Contact = () => {
               type="email"
               name="from_email"
               placeholder="Your Email"
+              required
               className="input input-bordered w-full mb-4"
             />
 
@@ -55,6 +70,7 @@ const Contact = () => {
             <textarea
               placeholder="Type Message"
               name="message"
+              required
               className="textarea textarea-bordered w-full mb-4"
             ></textarea>
 
@@ -77,7 +93,7 @@ const Contact = () => {
           <div className="flex items-center gap-2">
             <span className="text-red-500">
               {" "}
-              <FaLocationArrow></FaLocationArrow>
+              <FaLocationArrow />
             </span>
             <span>Mohammadpur,Dhaka, Bangladesh</span>
           </div>
